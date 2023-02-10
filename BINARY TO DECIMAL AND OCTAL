@@ -1,0 +1,18 @@
+import java.util.Scanner;
+ 
+public class Main
+{
+        public static void main(String args[])
+        {
+            Scanner s=new Scanner(System.in);
+            System.out.println("Enter a binary number:");
+            String n=s.nextLine();
+            System.out.println(" Decimal value is "+Integer.parseInt(n,2));
+            String number = n;
+        	int bnum = Integer.parseInt(number, 2);
+	        String ostr = Integer.toOctalString(bnum);
+	        System.out.println("Octal Value is: "+ostr);
+        
+        
+        }
+}        
